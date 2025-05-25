@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teorema de Pitágoras</title>
+</head>
+
+<body>
+
+
+    <div class="button-container"> 
+        <button class="button" id="darkModeButton"> 
+            <img src="lampada.jpeg" alt="Modo Escuro"> 
+        </button> 
+        <button class="button" id="scrollTopButton"> 
+            <img src="seta.png" alt="Topo da Página"> </button> 
+    </div>
+    <script src="app.js"></script>
+
+    <div class="container">
+    <header>
+        <h1>Teorema de Pitágoras</h1>
+        <br /><br />
+        <br /><br />
+    </header>
+    <main>
+        <section>
+
+            <h2>Resumo</h2> 
+
+            <p> O Teorema de Pitágoras é uma relação fundamental na geometria entre os comprimentos dos lados de um triângulo retângulo. 
+                Afirma que, em qualquer triângulo retângulo, o quadrado do comprimento da hipotenusa é igual à soma dos quadrados dos comprimentos dos outros dois lados. 
+            
+            <p> </p>
+            <img src="teorema.jpeg" alt="Ilustração do Teorema de Pitágoras" class="imagem-redimensionada" />            
+            
+            <br /><br />
+            <br /><br />
+            
+            <h2>Definição</h2>
+            <p>O teorema de Pitágoras é um teorema fundamental da geometria que estabelece uma relação entre os comprimentos dos lados de um triângulo retângulo. 
+            Ele afirma que: Em um triângulo retângulo, o quadrado do comprimento da hipotenusa (o lado oposto ao ângulo reto) é igual à soma dos quadrados dos comprimentos dos outros dois lados (os catetos).
+            <br /><br />Matematicamente, isso pode ser expresso como:     a² + b² = c²</p>
+
+            <p>a e b são os comprimentos dos catetos (os lados adjacentes ao ângulo reto)
+            <br/>c é o comprimento da hipotenusa (o lado oposto ao ângulo reto)</p> <img src="teorema2.png" alt="Ilustração do Teorema de Pitágoras" class="imagem-redimensionada" />            
+
+            <br /><br />
+            <h2>Exemplo:</h2>
+            <p>Uma escada está encostada em uma parede. A base da escada está a 3 metros da parede e o topo da escada está a 4 metros do chão. 
+            Qual é o comprimento da escada? <br /><br /> 
+            Resolução:<br/>
+            a é a distância da base da escada até a parede (3 metros)<br/>
+            b é a altura da escada até o chão (4 metros)
+            <br /><br />
+            Substituindo os valores dados no problema, obtemos:
+            <br /><br />
+            a² + b² = c²<br />
+            3² + 4² = c²<br />
+            9 + 16 = c²<br />
+            c² = 25 <br />
+            c = √25<br />
+            c = 5 metros<br/>
+            Portanto, o comprimento da escada é de 5 metros.</p>
+           
+            <br /><br />
+            <h2>Onde é utilizado o Teorema de Pitágoras? </h2>
+            <p>O teorema de Pitágoras é amplamente utilizado em vários campos, incluindo arquitetura, engenharia e navegação. 
+            Ele também é usado para resolver problemas de geometria e trigonometria.
+            Por exemplo, o teorema pode ser usado para encontrar a altura de um edifício medindo o comprimento de sua sombra e o ângulo de elevação do sol.</p>
+
+            <br /><br />
+        <section class="exercicio">
+            <h2>Exercícios 1</h2>
+            <p>1- (ENEM). Na figura abaixo, que representa o projeto de uma escada de 5 degraus de mesma altura, o comprimento total do corrimão é igual a:<br/><br/>
+            <img src="teorema3.jpg" alt="Ilustração do Teorema de Pitágoras" class="imagem-redimensionada" /> 
+                A) 1,8 m.<br/> 
+                B) 1,9 m.<br/>
+                C) 2,0 m.<br/>
+                D) 2,1 m<br/>
+                E) 2,2 m.</p>
+
+            </div>
+        </section>
+        <section class="exercicio">            
+            <h2>Exercício 2</h2> 
+            <p>2- Um terreno retangular tem 15 metros de comprimento e 10 metros de largura. 
+            Qual é a distância diagonal do terreno (da esquina inferior até a esquina superior direita)?</p>
+            
+            <br /><br />
+            <br /><br />
+            <button onclick="toggleResposta('resposta1', this)">Mostrar Resposta</button> 
+            <div id="resposta1" style="display: none;"> 
+               <p>1- Observe que a altura entre o primeiro degrau e o corrimão é de 90 cm. Somando o comprimento de cada degrau, obteremos 5 x 24 = 120 cm
+            Observe que será formado um triângulo retângulo de catetos 90 cm e 120 cm. 
+            Podemos aplicar o Teorema de Pitágoras para encontrar a medida do corrimão: <br /><br />
+            a² = b² + c²<br/>
+            a² = 90² + 120²<br/>
+            a² = 8100 + 14400<br/>
+            a² = 22500<br/>
+            a = √22500<br/>
+            a = 150 cm<br/><br/>
+        
+            Assim, o corrimão terá 150 cm. Mas observe que ainda há dois pedaços do corrimão, ambos de 30 cm, assim, a medida do corrimão será 150 cm + 60 cm = 210 cm. 
+            Transformando para metros (dividindo por 100) teremos 2,1 m. Alternativa D.</p>
+
+            <br /><br />
+            <p> 2- Usando a fórmula de Pitágoras:</p>
+            <p>a² + b² = c²<br/>
+            15² + 10² = c²<br/>
+            225 + 100 = c²<br/>
+            325 = c²<br/>
+            c = √325<br/>
+            c = 18,03 metros (aproximadamente)</p>
+            </div>
+            
+            <br/><br/>
+            <h2>Saiba Mais:</h2>
+
+            <br /><br />
+            <ul class="links"> 
+                <p><li><a href="https://www.todamateria.com.br/trigonometria/">Trigonometria</a></li> 
+                <li><a href="https://mundoeducacao.uol.com.br/matematica/triangulo-retangulo.htm">Triângulo retangulo</a></li> 
+                <li><a href="https://brasilescola.uol.com.br/matematica/teorema-tales.htm">Triângulo de Tales</a></li> 
+                <li><a href="https://pt.wikipedia.org/wiki/Teorema_de_Bayes">Teorema de Bayes</a></li> 
+                <li><a href="https://mundoeducacao.uol.com.br/matematica/geometria-analitica.htm">Geometria Analítica</a></li> </p>
+            </ul>
+
+        </section>
+    </main>
+    <footer>
+       
+        <h3>Copyright - 2024 - Teorema de Pitágoras. Todos os direitos reservados</h3>
+        <h3>Entre em contato pelo email: pandiego33@.com.br</h3>
+    </footer> 
+    </div>
+    <script> 
+        function toggleResposta(id, botao) { 
+            const respostaDiv = document.getElementById(id); 
+            if (respostaDiv.style.display === "none") { 
+                respostaDiv.style.display = "block"; 
+                botao.textContent = "Esconder Resposta"; 
+            } 
+            else { respostaDiv.style.display = "none";
+             botao.textContent = "Mostrar Resposta"; 
+            }
+         }
+    </script>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+
+
+    
+</body>
+
+</html>
