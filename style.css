@@ -50,6 +50,8 @@ body.dark-mode {
     height: 25px;
   }
   
+  
+
 
 .container {
     display: flex;
@@ -58,28 +60,28 @@ body.dark-mode {
     width: 100%; 
     max-width: 3000px; 
     margin: auto; 
-    padding: 1rem;  
+    padding: 1rem; 
     box-sizing: border-box; 
+}
 
 
 h1 {
     font-size: 2.5rem; 
-    color: #222831; 
-    text-align: left;
-    letter-spacing: 0.4rem;
+    color: #222831;
+    text-align: left; 
+    letter-spacing: 0.4rem; 
     margin: 1rem 0; 
-    margin-left: 1.5rem;
-
+    margin-left: 1.5rem; 
 }
 
 
  h2 { 
     font-size: 2rem; 
     color: #222831; 
-    text-align: left; 
+    text-align: left;  
     margin: 1rem 0; 
     margin-left: 1.5rem; 
-    width: 100%; 
+    width: 100%;
 }
 
 
@@ -111,7 +113,7 @@ section {
 section input {
     width: 30rem; 
     border: none; 
-    padding: 1rem;
+    padding: 1rem; 
     border-radius: 1.5rem; 
     margin-bottom: 1rem; 
     color: #45474B; 
@@ -119,11 +121,12 @@ section input {
     box-sizing: border-box; 
 }
 
+
 section button {
     padding: 0.8rem 1.2rem; 
     border: none; 
     border-radius: 1.5rem; 
-    background-color: #30475E; 
+    background-color: #30475E;
     color: #F5F7F8; 
     font-size: 1rem; 
     cursor: pointer; 
@@ -145,8 +148,9 @@ section button {
     border-radius: 0.6rem; 
     padding: 1rem; 
     margin-bottom: 1rem; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
+
 
 .item-resultado h2 {
     font-size: 1.5rem; 
@@ -174,8 +178,8 @@ section button {
 footer {
     background-color: #F5F7F8; 
     color: #45474B; 
-    text-align: center;
-    padding: 1rem 0;
+    text-align: center; 
+    padding: 1rem 0; 
     width: 100%; 
     margin-top: auto; 
     font-size: 1rem;
@@ -190,9 +194,10 @@ footer {
     margin: 0 auto;
 }
 
- 
+
 .item-resultado a { 
     text-decoration: none; 
     text-align: left; 
     margin-left: 1.5rem; 
+
 }
