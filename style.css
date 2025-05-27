@@ -3,8 +3,8 @@
 
 
 body {
-    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    background-color: #FFFFFF; /* Cor de fundo da página */
+    font-family: "Chakra Petch", sans-serif; 
+    background-color: #FFFFFF; 
     margin: 0;
     padding: 0;
     display: flex;
@@ -14,7 +14,7 @@ body {
 
 body.dark-mode {
     background-color: #121212;
-    color: #ffffff !important; /* Garante que a cor do texto seja branca */
+    color: #ffffff !important; 
   }
   
   body.dark-mode h1,
@@ -93,9 +93,9 @@ p {
 }
 
 .exercicio { 
-    text-align: left; /* Alinha o texto à esquerda */ 
-    width: 100%; /* Garante que ocupe toda a largura disponível */
-    margin-left: 1.5rem; /* Adiciona margem à esquerda */
+    text-align: left; 
+    width: 100%; 
+    margin-left: 1.5rem; 
 
 }
 
